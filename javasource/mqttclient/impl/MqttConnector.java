@@ -129,7 +129,7 @@ public class MqttConnector {
                     ));
                 } catch (Exception e) {
                     logger.error(String.format("Unable to load certificates for: " + formatBrokerId(brokerHost, brokerPort, brokerOrganisation, username), brokerHost,brokerPort), e);
-                    throw e;
+                    //throw e;
                 }
             }
 
